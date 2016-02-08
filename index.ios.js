@@ -23,7 +23,6 @@ var Weekdays = React.createClass({
         <DayItem day={day} daysUntil={i} />
       )
     }
-
     return daysItems
   }
 });
